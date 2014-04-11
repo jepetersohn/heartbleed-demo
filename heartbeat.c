@@ -19,5 +19,11 @@ typedef struct LogEntry {
 } LogEntry;
 
 int main(int argc, char *argv[]) {
-  puts("Hello world");
+  LogEntry *fu = malloc(sizeof(LogEntry));
+  char owner[] = "Adam";
+  char event[] = "Heartbeat Check: Monkey";
+  fu->owner =  strdup(owner);
+  fu->event = strdup(event);
+
+  puts(fu->owner);
 }
