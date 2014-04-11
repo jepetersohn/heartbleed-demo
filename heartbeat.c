@@ -13,6 +13,11 @@
  *
  */
 
+typedef struct LogEntry {
+  char *owner;
+  char *event;
+} LogEntry;
+
 int main(int argc, char *argv[]) {
   puts("Hello world");
 }
