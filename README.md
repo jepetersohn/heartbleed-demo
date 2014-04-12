@@ -13,7 +13,7 @@ Demonstrate the basic C concepts behind the "Heartbleed" bug.
 
 ## Output
 
-`./heartbeat > output.txt`
+`./heartbeat > output.txt`  
 `strings output.txt`
 
 ## Output
